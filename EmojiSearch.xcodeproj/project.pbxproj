@@ -11,6 +11,7 @@
 		CE130A822BCF634900AD45B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE130A812BCF634900AD45B3 /* ContentView.swift */; };
 		CE130A842BCF634A00AD45B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE130A832BCF634A00AD45B3 /* Assets.xcassets */; };
 		CE130A872BCF634A00AD45B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE130A862BCF634A00AD45B3 /* Preview Assets.xcassets */; };
+		CE130A922BCF6FEC00AD45B3 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE130A912BCF6FEC00AD45B3 /* Emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CE130A812BCF634900AD45B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE130A832BCF634A00AD45B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE130A862BCF634A00AD45B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE130A912BCF6FEC00AD45B3 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +53,10 @@
 		CE130A7E2BCF634900AD45B3 /* EmojiSearch */ = {
 			isa = PBXGroup;
 			children = (
-				CE130A7F2BCF634900AD45B3 /* EmojiSearchApp.swift */,
-				CE130A812BCF634900AD45B3 /* ContentView.swift */,
-				CE130A832BCF634A00AD45B3 /* Assets.xcassets */,
+				CE130A902BCF6FD700AD45B3 /* Model */,
+				CE130A8D2BCF6CBD00AD45B3 /* App */,
+				CE130A8E2BCF6CCA00AD45B3 /* View */,
+				CE130A8F2BCF6CD800AD45B3 /* Resources */,
 				CE130A852BCF634A00AD45B3 /* Preview Content */,
 			);
 			path = EmojiSearch;
@@ -65,6 +68,38 @@
 				CE130A862BCF634A00AD45B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE130A8D2BCF6CBD00AD45B3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE130A7F2BCF634900AD45B3 /* EmojiSearchApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE130A8E2BCF6CCA00AD45B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE130A812BCF634900AD45B3 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE130A8F2BCF6CD800AD45B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE130A832BCF634A00AD45B3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE130A902BCF6FD700AD45B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE130A912BCF6FEC00AD45B3 /* Emoji.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE130A922BCF6FEC00AD45B3 /* Emoji.swift in Sources */,
 				CE130A822BCF634900AD45B3 /* ContentView.swift in Sources */,
 				CE130A802BCF634900AD45B3 /* EmojiSearchApp.swift in Sources */,
 			);
@@ -286,9 +322,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mayna.EmojiSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,9 +354,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mayna.EmojiSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
