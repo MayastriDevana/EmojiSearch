@@ -18,7 +18,6 @@ Proyek latihan membuat aplikasi catalog emoji dan search emoji
 
 ## Badges
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ![Apple](https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white)
 
