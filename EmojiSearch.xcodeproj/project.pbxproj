@@ -16,6 +16,7 @@
 		CE130A982BCF75C700AD45B3 /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE130A972BCF75C700AD45B3 /* RandomColor.swift */; };
 		CE130A9D2BCF840A00AD45B3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE130A9C2BCF840A00AD45B3 /* HeaderView.swift */; };
 		CE130A9F2BCF866900AD45B3 /* EmojiDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE130A9E2BCF866900AD45B3 /* EmojiDetail.swift */; };
+		CEA2B8162BD0B3D7003BE917 /* InfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2B8152BD0B3D7003BE917 /* InfoBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		CE130A972BCF75C700AD45B3 /* RandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColor.swift; sourceTree = "<group>"; };
 		CE130A9C2BCF840A00AD45B3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		CE130A9E2BCF866900AD45B3 /* EmojiDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDetail.swift; sourceTree = "<group>"; };
+		CEA2B8152BD0B3D7003BE917 /* InfoBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				CE130A942BCF72A600AD45B3 /* EmojiRow.swift */,
+				CEA2B8152BD0B3D7003BE917 /* InfoBox.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				CE130A9F2BCF866900AD45B3 /* EmojiDetail.swift in Sources */,
 				CE130A982BCF75C700AD45B3 /* RandomColor.swift in Sources */,
 				CE130A952BCF72A600AD45B3 /* EmojiRow.swift in Sources */,
+				CEA2B8162BD0B3D7003BE917 /* InfoBox.swift in Sources */,
 				CE130A822BCF634900AD45B3 /* ContentView.swift in Sources */,
 				CE130A802BCF634900AD45B3 /* EmojiSearchApp.swift in Sources */,
 			);
